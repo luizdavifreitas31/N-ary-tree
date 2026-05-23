@@ -4,7 +4,7 @@ Permite executar todos os 8 métodos implementados na árvore.
 """
 
 import os
-from main import FileSystemTree
+from Metodos.main import FileSystemTree
 
 
 def exibir_menu():

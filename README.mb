@@ -1,0 +1,28 @@
+# Árvore N-ária: Sistema de Arquivos 
+
+Este projeto é uma implementação de uma Estrutura de Dados em Árvore N-ária desenvolvida em Python, projetada para simular o comportamento de um sistema hierárquico de arquivos e diretórios.
+O projeto foi desenvolvido como parte prática da disciplina de Algoritmos e Estruturas de Dados I (AED1).
+
+# Funcionalidades Implementadas
+
+A classe `FileSystemTree` possui os seguintes métodos operacionais para manipulação e travessia da árvore:
+* Adição de novos diretórios e arquivos a partir de caminhos completos (ex: `/home/user/doc.txt`).
+* Verificação de existência de caminhos específicos.
+* Listagem de conteúdo de diretórios.
+* Busca recursiva de arquivos por extensão (ex: `.py`, `.pdf`).
+* Cálculo da profundidade máxima da hierarquia.
+* Contagem estruturada de nós separados por nível.
+* Contagem total de arquivos finais mapeados.
+* Validação de integridade estrutural e checagem de ponteiros.
+
+# Como Executar e Testar
+
+Este projeto foi construído com foco na confiabilidade e possui duas formas de validação: 
+uma suíte de testes automatizados e uma interface interativa via terminal.
+
+## 1. Testes Automatizados (Pytest)
+A estrutura lógica do código é validada por uma bateria de 28 testes automatizados. 
+Para rodá-los na sua máquina, certifique-se de ter o `pytest` instalado e execute o seguinte comando na raiz do projeto:
+
+bash
+python -m pytest test_file_system.py -v
