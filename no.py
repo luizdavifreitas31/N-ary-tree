@@ -1,5 +1,6 @@
 class no:
-    def __init__(self, chave):
-        self.chave = chave
-        self.esq = None
-        self.dir = None
+    def __init__(self, valor):
+        self.valor = valor
+        self.filho = None
+        self.irmao = None
+        self.pai = None

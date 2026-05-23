@@ -27,12 +27,12 @@ class arvore:
         if pai is None:
             return False
 
-        filho = no(nova_chave)
+        filho = no.no(nova_chave)
 
-        atual_i = pai.prim_filho
+        atual_i = pai.filho
 
         if atual_i is None:
-            pai.prim_filho = filho
+            pai.filho = filho
         else:
             while atual_i.irmao:
                 atual_i = atual_i.irmao
