@@ -3,6 +3,12 @@
 Este projeto é uma implementação de uma Estrutura de Dados em Árvore N-ária desenvolvida em Python, projetada para simular o comportamento de um sistema hierárquico de arquivos e diretórios.
 O projeto foi desenvolvido como parte prática da disciplina de Algoritmos e Estruturas de Dados I (AED1).
 
+# Contribuidores:
+Luiz Davi Freitas Franco
+Paulo Miguel Castro 
+João Vitor Dias da Silva
+Vinícius de Oliveira Marágua
+
 # Funcionalidades Implementadas
 
 A classe `FileSystemTree` possui os seguintes métodos operacionais para manipulação e travessia da árvore:
