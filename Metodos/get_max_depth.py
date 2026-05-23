@@ -1,6 +1,4 @@
-#codigo para retornar a profundidade max de uma árvore n-aria
-from arvore import arvore
-from no import no
+# FUNÇÃO DE PROFUNDIDADE MÁXIMA (get_max_depth)
 
 def get_max_depth(self):
 
@@ -10,7 +8,7 @@ def get_max_depth(self):
             return 0
 
         maior = 0
-        filho = no.prim_filho
+        filho = no.filho
 
         while filho:
 

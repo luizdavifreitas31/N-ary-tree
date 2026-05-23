@@ -1,0 +1,15 @@
+/home/user/Documentos/trabalho.pdf
+/home/user/Documentos/notas.txt
+/home/user/Documentos/AED1/main.py
+/home/user/Documentos/AED1/utils.py
+/home/user/Documentos/AED1/testes/test_main.py
+/home/user/Documentos/BD/schema.sql
+/home/user/Imagens/foto.jpg
+/home/user/Imagens/2024/viagem.jpg
+/home/user/Imagens/2024/praia.png
+/home/user/Imagens/2025/selfie.jpg
+/home/user/Vídeos/aula.mp4
+/var/log/system.log
+/var/log/error.log
+/var/log/2024/app.log
+/etc/config.conf
