@@ -4,3 +4,4 @@ class no:
         self.filho = None
         self.irmao = None
         self.pai = None
+        self.is_file = False

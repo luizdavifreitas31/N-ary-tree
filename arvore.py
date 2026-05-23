@@ -1,4 +1,5 @@
 import no
+from funções_valid_e_totalfl import get_total_files, is_valid
 
 
 class arvore:
@@ -8,6 +9,7 @@ class arvore:
     def busca(self, raiz_pai, chave):
         if raiz_pai == None:
             return None
+
         if raiz_pai.chave == chave:
             return raiz_pai
 
@@ -39,3 +41,10 @@ class arvore:
             atual_i.irmao = filho
 
         return True
+
+    def get_total_files(self) -> int:
+        return get_total_files(self.raiz)
+
+    def is_valid(self) -> bool:
+        return is_valid(self.raiz)
+
